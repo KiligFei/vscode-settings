@@ -62,7 +62,7 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "notebook.formatOnSave.enabled": true,
-  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.formatOnSaveMode": "file",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
