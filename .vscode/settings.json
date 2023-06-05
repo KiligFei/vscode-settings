@@ -1,6 +1,6 @@
 {
   // ------ font -------
-  "editor.fontFamily": "Maple Mono,'魏碑-简',Cartograph CF,Operator Mono,Courier Prime Code",
+  "editor.fontFamily": "Dank Mono,Maple Mono,'魏碑-简',Cartograph CF,Operator Mono,Courier Prime Code",
   "markdown.preview.fontFamily": "cartograph CF,'魏碑-简',Maple Mono",
   "editor.fontSize": 14,
   "editor.fontWeight": "400",
