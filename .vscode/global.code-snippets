@@ -68,5 +68,30 @@
       "  ${1}",
       "}"
     ]
-  }
+  },
+  "vue2": {
+    "prefix": "vue2",
+    "body": [
+      "<template>",
+      "  <div class=\"main\">\n",
+      "  </div>",
+      "</template>",
+      "<script>",
+      "export default {",
+      "  data() {",
+      "    return {",
+      "    }",
+      "  },",
+      "  methods: {",
+      "    clickHandler() {}",
+      "  },",
+      "  mounted(){}",
+      "}",
+      "</script>",
+      "<style lang='less' scoped>",
+      "</style>",
+      "$2"
+    ],
+    "description": "Log output to console"
+  },
 }
