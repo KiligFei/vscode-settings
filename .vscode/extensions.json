@@ -1,13 +1,11 @@
 {
   "recommendations": [
     "russell.any-rule",
-    "blackboxapp.blackbox",
     "antfu.browse-lite",
     "ms-ceintl.vscode-language-pack-zh-hans",
     "formulahendry.code-runner",
     "streetsidesoftware.code-spell-checker",
     "w88975.code-translate",
-    "aminer.codegeex",
     "codeium.codeium",
     "naumovs.color-highlight",
     "vivaxy.vscode-conventional-commits",
