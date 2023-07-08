@@ -14,7 +14,6 @@
     "antfu.file-nesting",
     "mhutchie.git-graph",
     "github.copilot-labs",
-    "github.copilot-nightly",
     "hyzeta.vscode-theme-github-light",
     "github.vscode-pull-request-github",
     "eamodio.gitlens",
@@ -50,11 +49,14 @@
     "antfu.vite",
     "antfu.theme-vitesse",
     "tomoki1207.pdf",
-    "vue.volar",
     "antfu.where-am-i",
     "rodrigovallades.es7-react-js-snippets",
     "alduncanson.react-hooks-snippets",
     "planbcoding.vscode-react-refactor",
-    "developer2006.svg-gallery"
+    "developer2006.svg-gallery",
+    "giscafer.leek-fund",
+    "github.copilot",
+    "github.copilot-chat",
+    "quicktype.quicktype"
   ]
 }
