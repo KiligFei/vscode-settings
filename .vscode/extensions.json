@@ -57,6 +57,7 @@
     "giscafer.leek-fund",
     "github.copilot",
     "github.copilot-chat",
-    "quicktype.quicktype"
+    "quicktype.quicktype",
+    "simonhe.common-intellisense"
   ]
 }
