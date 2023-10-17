@@ -9,4 +9,5 @@
 - pi
 - ccommand
 - [slack](https://slack.com/intl/zh-hk/)
+- flowlauncher
 
