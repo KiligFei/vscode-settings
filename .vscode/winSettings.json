@@ -1,5 +1,5 @@
 {
-  "update.mode": "manual",
+  "update.mode": "default",
   //   // ------ font -------
   "editor.fontFamily": "Dank Mono,'汉仪魏碑简',Maple Mono,Cartograph CF",
   "markdown.preview.fontFamily": "Cartograph CF,Dank Mono,'汉仪魏碑简'",
@@ -8,56 +8,17 @@
   "editor.lineHeight": 36,
   "editor.letterSpacing": 2.0,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
-  // "editor.tokenColorCustomizations": {
-  //   //   "textMateRules": [
-  //   //     {
-  //   //       "name": "italic font",
-  //   //       "scope": [
-  //   //         "comment",
-  //   //         "keyword",
-  //   //         "storage",
-  //   //         "keyword.control.import",
-  //   //         "keyword.control.default",
-  //   //         "keyword.control.from",
-  //   //         "keyword.operator.new",
-  //   //         "keyword.control.export",
-  //   //         "keyword.control.flow",
-  //   //         "storage.type.class",
-  //   //         "storage.type.function",
-  //   //         "storage.type",
-  //   //         "storage.type.class",
-  //   //         "variable.language",
-  //   //         "variable.language.super",
-  //   //         "variable.language.this",
-  //   //         "meta.class",
-  //   //         "meta.var.expr",
-  //   //         "constant.language.null",
-  //   //         "support.type.primitive",
-  //   //         "entity.name.method.js",
-  //   //         "entity.other.attribute-name",
-  //   //         "punctuation.definition.comment",
-  //   //         "text.html.basic entity.other.attribute-name.html",
-  //   //         "text.html.basic entity.other.attribute-name",
-  //   //         "tag.decorator.js entity.name.tag.js",
-  //   //         "tag.decorator.js punctuation.definition.tag.js",
-  //   //         "source.js constant.other.object.key.js string.unquoted.label.js"
-  //   //       ],
-  //   //       "settings": {
-  //   //         "fontStyle": "italic"
-  //   //       }
-  //   //     }
-  //   //   ]
-  // },
   //   // ------ theme 外观------
-  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.colorTheme": "vuesion",
   "workbench.iconTheme": "emoji-file-icons",
   "workbench.productIconTheme": "material-product-icons",
   "powermode.enabled": true,
   "powermode.shake.enabled": false,
   "breadcrumbs.enabled": false,
+  "workbench.sideBar.location": "right",
   // apc
   "window.titleBarStyle": "custom",
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": "multiple",
   "apc.electron": {
     "titleBarStyle": "customButtonsOnHover",
     "frame": false,
@@ -87,7 +48,7 @@
   "apc.stylesheet": {
     // Change cursor color
     ".monaco-editor .cursor": "background: linear-gradient(to bottom, #ee0979, #ff6a00) !important; box-shadow: 0 0 42px 5px #ee0979, #ff6a00 0px 0px 34px 1px; color: #161616 !important",
-    ".editor .scrollbar .slider": "visibility: hidden",
+    // ".editor .scrollbar .slider": "visibility: hidden",
     ".editor .scrollbar:hover .slider": "visibility: initial",
     ".editor .decorationsOverviewRuler": "display: none !important"
     // ".monaco-toolbar": "visibility: hidden !important;"
@@ -106,8 +67,7 @@
   "prettier.enable": true,
   "editor.formatOnSaveMode": "file",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    // "source.fixAll.eslint": true,
+    "source.fixAll.eslint": "explicit",
     "source.organizeImports": true
   },
   "eslint.experimental.useFlatConfig": true,
@@ -178,7 +138,6 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.wrapTabs": true,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.sideBar.location": "right",
   "workbench.settings.settingsSearchTocBehavior": "hide",
   // ------ window ------
   "window.openFilesInNewWindow": "on",
@@ -332,7 +291,7 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "//": "Last update at 2023/10/15 08:58:07",
+    "//": "Last update at 2023/11/2 13:50:24",
     "*.asax": "$(capture).*.cs, $(capture).*.vb",
     "*.ascx": "$(capture).*.cs, $(capture).*.vb",
     "*.ashx": "$(capture).*.cs, $(capture).*.vb",
@@ -350,6 +309,7 @@
     "*.cxx": "$(capture).hpp, $(capture).h, $(capture).hxx",
     "*.dart": "$(capture).freezed.dart, $(capture).g.dart",
     "*.ex": "$(capture).html.eex, $(capture).html.heex, $(capture).html.leex",
+    "*.fs": "$(capture).fs.js, $(capture).fs.jsx, $(capture).fs.ts, $(capture).fs.tsx, $(capture).fs.rs, $(capture).fs.php, $(capture).fs.dart",
     "*.go": "$(capture)_test.go",
     "*.java": "$(capture).class",
     "*.js": "$(capture).js.map, $(capture).*.js, $(capture)_*.js",
