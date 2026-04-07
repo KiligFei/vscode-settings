@@ -1,6 +1,6 @@
 {
   "import": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "im",
     "body": [
       "import { $1 } from '$2';"
@@ -8,7 +8,7 @@
     "description": "Import a module"
   },
   "export-all": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "ex",
     "body": [
       "export * from '$2';"
@@ -60,7 +60,7 @@
     ]
   },
   "if-vitest": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "ifv",
     "body": [
       "if (import.meta.vitest) {",
@@ -69,29 +69,19 @@
       "}"
     ]
   },
-  "vue2": {
-    "prefix": "vue2",
+  "className": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "cls",
     "body": [
-      "<template>",
-      "  <div class=\"main\">\n",
-      "  </div>",
-      "</template>",
-      "<script>",
-      "export default {",
-      "  data() {",
-      "    return {",
-      "    }",
-      "  },",
-      "  methods: {",
-      "    clickHandler() {}",
-      "  },",
-      "  mounted(){}",
-      "}",
-      "</script>",
-      "<style lang='less' scoped>",
-      "</style>",
-      "$2"
+      "className={styles${1}}"
     ],
-    "description": "Log output to console"
+    "description": "生成className = {styles['']}"
   },
+  "clog-color": {
+    "prefix": "clogc",
+    "body": [
+      "console.log('%c====${TM_FILENAME}===${TM_LINE_NUMBER}===', 'color: #007acc; font-weight: bold;', $0)"
+    ],
+    "description": "带颜色的文件名行号打印"
+  }
 }
