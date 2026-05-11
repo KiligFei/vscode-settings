@@ -1,0 +1,397 @@
+/* Code comment style */
+.mtk3 {
+  font-family: "Maple Mono", monospace !important;
+  color: #008c7d !important;
+}
+
+/* 暗色主题样式保持不变 */
+/* .vs-dark .mtk1 {
+    color: #f8f8f2;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0), 0 0 3px rgba(0, 0, 0, 0), 0 0 5px rgba(0, 0, 0, 0), 0 0 8px #f8f8f2;
+}
+
+.vs-dark .mtk4 {
+    color: #fdfdfd;
+    text-shadow: 0 0 2px #03edf975, 0 0 4px #03edf975, 0 0 6px #03edf975, 0 0 8px #03edf975;
+}
+
+.vs-dark .mtk5 {
+    color: #ae81ff;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0), 0 0 4px rgba(0, 0, 0, 0), 0 0 6px rgba(0, 0, 0, 0), 0 0 8px rgba(174, 129, 255, .5);
+}
+
+.vs-dark .mtk6 {
+    color: #ff2f84;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0), 0 0 4px rgba(0, 0, 0, 0), 0 0 6px rgba(0, 0, 0, 0), 0 0 8px rgba(255, 47, 132, .5);
+}
+
+.vs-dark .mtk7 {
+    color: #66d9ef;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0), 0 0 4px rgba(0, 0, 0, 0), 0 0 6px rgba(0, 0, 0, 0), 0 0 8px rgba(102, 217, 239, .5);
+}
+
+.vs-dark .mtk8 {
+    color: #b9e85b;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0), 0 0 4px rgba(0, 0, 0, 0), 0 0 6px rgba(0, 0, 0, 0), 0 0 8px rgba(185, 232, 91, .5);
+}
+
+.vs-dark .mtk9 {
+    color: #fd971f;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0), 0 0 4px rgba(0, 0, 0, 0), 0 0 6px rgba(0, 0, 0, 0), 0 0 8px rgba(253, 151, 31, .5);
+}
+
+.vs-dark .mtk13 {
+    color: #f9c74b;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0), 0 0 4px rgba(0, 0, 0, 0), 0 0 6px rgba(0, 0, 0, 0), 0 0 8px rgba(249, 199, 75, .5);
+}
+
+/* 亮色主题样式 */
+/* .mtk1 {
+    /* color: #2d2d2d;
+    text-shadow: 0 0 2px rgba(45, 45, 45, 0.2), 0 0 3px rgba(45, 45, 45, 0.2);
+}
+
+ .mtk4 {
+    color: #0550ae;
+    text-shadow: 0 0 2px rgba(5, 80, 174, 0.3), 0 0 4px rgba(5, 80, 174, 0.2);
+}
+.mtk5 {
+    color: #7c4dff;
+    text-shadow: 0 0 2px rgba(124, 77, 255, 0.3), 0 0 4px rgba(124, 77, 255, 0.2);
+}
+
+.mtk6 {
+    color: #d81b60;
+    text-shadow: 0 0 2px rgba(216, 27, 96, 0.3), 0 0 4px rgba(216, 27, 96, 0.2);
+}
+
+.mtk7 {
+    color: #0097a7;
+    text-shadow: 0 0 2px rgba(0, 151, 167, 0.3), 0 0 4px rgba(0, 151, 167, 0.2);
+}
+
+.mtk8 {
+    color: #689f38;
+    text-shadow: 0 0 2px rgba(104, 159, 56, 0.3), 0 0 4px rgba(104, 159, 56, 0.2);
+}
+
+ .mtk9 {
+    color: #f57c00;
+    text-shadow: 0 0 2px rgba(245, 124, 0, 0.3), 0 0 4px rgba(245, 124, 0, 0.2);
+}
+
+ .mtk13 {
+    color: #c17900;
+    text-shadow: 0 0 2px rgba(193, 121, 0, 0.3), 0 0 4px rgba(193, 121, 0, 0.2);
+}  */
+
+
+.line-numbers {
+  position: relative !important;
+  width: 35px !important;
+  font-size: 16px !important;
+  font-family: "Maple Mono" !important;
+  opacity: 0.3;
+}
+/* Code canvas top shadow */
+.monaco-editor .scroll-decoration {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75) !important;
+  top: -6px !important;
+}
+
+
+
+/* Toolbars when tabs are enabled. */
+/* .monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .editor-actions {
+  display: none !important;
+} */
+
+/* Side bar */
+.part.sidebar {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+}
+
+/* File Explorer Selected Item */
+.monaco-list.list_id_1 .monaco-list-row.selected {
+  background-color: #4f5971 !important;
+  opacity: 1 !important;
+  border-top: 1px #727b90 solid;
+  border-bottom: 1px #727b90 solid;
+}
+
+/* List item label name */
+.monaco-list.list_id_1 .monaco-list-row.selected .label-name {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+/* File explorer action buttons */
+/* .monaco-workbench .part.sidebar .title-actions .actions-container {
+  display: none;
+} */
+
+/* File Explorer Item Label */
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row .monaco-icon-label .label-name {
+  font-family: "Maple Mono", monospace !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+/* 暗色主题文字颜色 */
+[data-vscode-theme-kind="vscode-dark"] .monaco-tree .monaco-tree-row .label-name,
+[data-vscode-theme-kind="vscode-dark"] .monaco-list .monaco-list-row .monaco-icon-label .label-name {
+  color: #fff !important;
+}
+
+/* 亮色主题文字颜色 */
+[data-vscode-theme-kind="vscode-light"] .monaco-tree .monaco-tree-row .label-name,
+[data-vscode-theme-kind="vscode-light"] .monaco-list .monaco-list-row .monaco-icon-label .label-name {
+  color: #333 !important;
+}
+
+/* Sidebar top shadow */
+.monaco-scrollable-element > .shadow.top {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75) !important;
+  top: -3px !important;
+}
+
+/* Sidebar title */
+.composite.title {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-items: center !important;
+}
+.composite.title h2 {
+  font-weight: bold !important;
+  font-size: 12px !important;
+  text-transform: uppercase;
+  color: #bc9abc !important;
+}
+
+.composite.title h2::before {
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 1.1rem;
+  content: "🚀";
+}
+
+/* Scroll Bar */
+.slider {
+  position: absolute !important;
+  right: 1px !important;
+  width: 1px !important;
+  background: #bc9abc !important;
+  left: auto !important;
+}
+
+.codicon-toolbar-more,
+.codicon-word-wrap {
+  display: block !important;
+}
+
+/* Tooltip box style */
+.monaco-editor-hover,
+.monaco-hover {
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.45) !important;
+  /* padding: 10px !important; */
+  border-radius: 20px !important;
+  border: none !important;
+}
+
+/* 暗色主题 */
+[data-vscode-theme-kind="vscode-dark"] .monaco-editor-hover,
+[data-vscode-theme-kind="vscode-dark"] .monaco-hover {
+  background-color: rgba(45, 42, 46, 0.8) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+
+/* 亮色主题 */
+[data-vscode-theme-kind="vscode-light"] .monaco-editor-hover,
+[data-vscode-theme-kind="vscode-light"] .monaco-hover {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+
+/* Search Label */
+.search-label {
+  font-family: "Maple Mono" !important;
+  font-size: 16px !important;
+  display: block;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+
+/* 暗色主题搜索标签颜色 */
+[data-vscode-theme-kind="vscode-dark"] .search-label {
+  color: #fff;
+}
+
+/* 亮色主题搜索标签颜色 */
+[data-vscode-theme-kind="vscode-light"] .search-label {
+  color: #333;
+}
+
+/* Search icon */
+ .search-icon {
+  display: none !important;
+}
+
+.codicon-search::before {
+  display: none !important;
+}
+
+/* .codicon-arrow-right,
+.codicon-arrow-left {
+  display: none !important;
+} */
+
+/* Command Palette */
+.quick-input-widget {
+  transform: translateY(-50%) !important;
+  top: 50% !important;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.45) !important;
+  padding: 10px 10px 18px 10px !important;
+  border-radius: 20px !important;
+}
+
+/* 暗色主题 */
+[data-vscode-theme-kind="vscode-dark"] .quick-input-widget {
+  background-color: rgba(45, 42, 46, 0.8) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+
+/* 亮色主题 */
+[data-vscode-theme-kind="vscode-light"] .quick-input-widget {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+
+/* Remove background for lists */
+.monaco-list-rows {
+  background: transparent !important;
+}
+
+/* List hover */
+.monaco-list-row:hover {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.notifications-toasts .monaco-list-row:hover {
+  background: none !important;
+}
+
+
+/* Command palette text input */
+.quick-input-filter .monaco-inputbox {
+  border-radius: 12px !important;
+  padding: 8px !important;
+  border: none !important;
+  font-family: "Maple Mono" !important;
+  font-size: 14px !important;
+  margin-bottom: 16px !important;
+}
+
+#command-blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+}
+
+
+/* 暗色主题输入框背景 */
+[data-vscode-theme-kind="vscode-dark"] .quick-input-filter .monaco-inputbox {
+  background-color: rgba(34, 34, 34, 0.4) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+
+/* 亮色主题输入框背景 */
+[data-vscode-theme-kind="vscode-light"] .quick-input-filter .monaco-inputbox {
+  background-color: rgba(240, 240, 240, 0.4) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+
+/* Command palette's input box placeholder */
+/* 暗色主题占位符颜色 */
+[data-vscode-theme-kind="vscode-dark"] .monaco-inputbox input::placeholder {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* 亮色主题占位符颜色 */
+[data-vscode-theme-kind="vscode-light"] .monaco-inputbox input::placeholder {
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 暗色主题标签颜色 */
+[data-vscode-theme-kind="vscode-dark"] .monaco-workbench label {
+    color: #fff !important;
+    font-size: 14px !important;
+}
+
+/* 亮色主题标签颜色 */
+[data-vscode-theme-kind="vscode-light"] .monaco-workbench label {
+    color: #000 !important;  /* 改为纯黑色 */
+    font-size: 14px !important;
+}
+
+
+/* Container that holds the VS Code home icon. */
+/* .editor-group-watermark {
+  max-width: none !important;
+} */
+
+.command-center-center {
+  width: auto !important;
+}
+
+
+/* 暗色主题活动标签页 */
+[data-vscode-theme-kind="vscode-dark"] .monaco-workbench .part.editor>
+.content .editor-group-container.active>
+.title .tabs-container>
+.tab.active {
+    background-color: #2b2d45 !important;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+[data-vscode-theme-kind="vscode-dark"] .monaco-workbench .part.editor>
+.content .editor-group-container.active>
+.title .tabs-container>
+.tab.active:hover {
+    background-color: #343258 !important;
+}
+
+/* 亮色主题活动标签页 */
+[data-vscode-theme-kind="vscode-light"] .monaco-workbench .part.editor>
+.content .editor-group-container.active>
+.title .tabs-container>
+.tab.active {
+    background-color: #e8e8e8 !important;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+[data-vscode-theme-kind="vscode-light"] .monaco-workbench .part.editor>
+.content .editor-group-container.active>
+.title .tabs-container>
+.tab.active:hover {
+    background-color: #d8d8d8 !important;
+}
